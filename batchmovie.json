@@ -1,0 +1,34 @@
+{
+    "Movie": [
+        {
+            "PutRequest": {
+                "Item": {
+				  "Actor": {"S": "Tom Cruise"},
+				  "Movie": {"S": "Missao Impossivel - 5"},
+				  "Category": {"S": "Acao"},
+				  "Year": {"S": "2015"}
+				}
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+				  "Actor": {"S": "Tom Cruise"},
+				  "Movie": {"S": "Top Gun 2"},
+				  "Category": {"S": "Acao"},
+				  "Year": {"S": "2022"}
+				}
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+				  "Actor": {"S": "Tom Cruise"},
+				  "Movie": {"S": "Jerry Maguire: A Grande Virada"},
+				  "Category": {"S": "Comedy"},
+				  "Year": {"S": "1996"}
+				}
+            }
+        }
+      ]
+}
